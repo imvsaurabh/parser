@@ -16,6 +16,7 @@
     <properties>
         <java.version>17</java.version>
         <jaxb-maven-plugin.version>4.0.0</jaxb-maven-plugin.version>
+        <jaxb-plugins-runtime.version>4.0.3</jaxb-plugins-runtime.version>
     </properties>
     <dependencies>
         <dependency>
@@ -30,7 +31,7 @@
         <dependency> <!--For jakarta related imports-->
             <groupId>org.jvnet.jaxb</groupId>
             <artifactId>jaxb-plugins-runtime</artifactId>
-            <version>4.0.3</version>
+            <version>${jaxb-plugins-runtime.version}</version>
         </dependency>
 
     </dependencies>
